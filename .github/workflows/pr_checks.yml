@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
+      - name: Authenticate with private NPM package
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
       - name: setup-node
         uses: actions/setup-node@v3
         with:
@@ -42,6 +44,8 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
+      - name: Authenticate with private NPM package
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
       - name: setup-node
         uses: actions/setup-node@v3
         with:
@@ -71,6 +75,8 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
+      - name: Authenticate with private NPM package
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
       - name: setup-node
         uses: actions/setup-node@v3
         with:
