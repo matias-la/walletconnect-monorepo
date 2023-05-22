@@ -1,6 +1,6 @@
 import { randomBytes, scalarMult } from "tweetnacl";
 import SHA from "sha.js";
-import createHmac from "create-hmac"
+import createHmac from "create-hmac";
 import { CryptoTypes } from "@walletconnect/types";
 import { concat, fromString, toString } from "uint8arrays";
 /// <reference path="sodium-crypto.d.ts"/>
@@ -25,7 +25,7 @@ _9[0] = 9;
 function _generateKeyPair() {
   const secretKey = randomBytes(KEY_LENGTH);
   const publicKey = scalarMult(secretKey, _9);
-  return { secretKey, publicKey }
+  return { secretKey, publicKey };
 }
 function _sharedKey(a: Uint8Array, b: Uint8Array) {
   return scalarMult(a, b);
@@ -35,14 +35,14 @@ function _sharedKey(a: Uint8Array, b: Uint8Array) {
 // info, and keys of 32 bits
 function _hkdf32(key: Uint8Array) {
   if (key.length !== 32) {
-    throw new Error("key must be of length 32")
+    throw new Error("key must be of length 32");
   }
-  const zeroes = Buffer.alloc(32)
+  const zeroes = Buffer.alloc(32);
   const prk = createHmac("sha256", zeroes).update(key).digest();
 
   // Since the derived key will be of length 32, we only need to do one HMAC.
   // There's no need for writing a loop that repeadly calls HMAC.
-  const one = Buffer.from([1])
+  const one = Buffer.from([1]);
 
   const derived = createHmac("sha256", prk).update(one).digest();
 
@@ -63,29 +63,18 @@ export function generateRandomBytes32(): string {
 }
 
 export function deriveSymKey(privateKeyA: string, publicKeyB: string): string {
-  const sharedKey = _sharedKey(
-    fromString(privateKeyA, BASE16),
-    fromString(publicKeyB, BASE16),
-  );
+  const sharedKey = _sharedKey(fromString(privateKeyA, BASE16), fromString(publicKeyB, BASE16));
   const symKey = _hkdf32(sharedKey);
   return toString(symKey, BASE16);
 }
 
 export function hashKey(key: string): string {
-  const result = new Uint8Array(
-    SHA("sha256")
-    .update(fromString(key, BASE16))
-    .digest()
-  )
+  const result = new Uint8Array(SHA("sha256").update(fromString(key, BASE16)).digest());
   return toString(result, BASE16);
 }
 
 export function hashMessage(message: string): string {
-  const result = new Uint8Array(
-    SHA("sha256")
-    .update(fromString(message, UTF8))
-    .digest()
-  )
+  const result = new Uint8Array(SHA("sha256").update(fromString(message, UTF8)).digest());
   return toString(result, BASE16);
 }
 
@@ -109,23 +98,22 @@ export async function encrypt(params: CryptoTypes.EncryptParams): Promise<string
 
   const iv =
     typeof params.iv !== "undefined" ? fromString(params.iv, BASE16) : randomBytes(IV_LENGTH);
-  const sealed = new Uint8Array(await encryptAEAD(
-    fromString(params.message, UTF8),
-    fromString(params.symKey, BASE16),
-    iv,
-    null
-   ));
+  const sealed = new Uint8Array(
+    await encryptAEAD(
+      fromString(params.message, UTF8),
+      fromString(params.symKey, BASE16),
+      iv,
+      null,
+    ),
+  );
   return serialize({ type, sealed, iv, senderPublicKey });
 }
 
 export async function decrypt(params: CryptoTypes.DecryptParams): Promise<string> {
   const { sealed, iv } = deserialize(params.encoded);
-  const message = new Uint8Array(await decryptAEAD(
-    sealed,
-    fromString(params.symKey, BASE16),
-    iv,
-    null
-  ));
+  const message = new Uint8Array(
+    await decryptAEAD(sealed, fromString(params.symKey, BASE16), iv, null),
+  );
   if (message === null) throw new Error("Failed to decrypt");
   return toString(message, UTF8);
 }
