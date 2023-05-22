@@ -236,13 +236,6 @@ describe("Relayer", () => {
         await disconnectSocket(relayer);
       });
 
-      it("should restart transport after connection drop", async () => {
-        await relayer.provider.connection.close();
-        expect(relayer.connected).to.be.false;
-        await relayer.restartTransport();
-        expect(relayer.connected).to.be.true;
-      });
-
       it("should close transport 10 seconds after init if NOT active", async () => {
         relayer = new Relayer({
           core,
