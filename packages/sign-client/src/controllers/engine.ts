@@ -1,5 +1,9 @@
 /* eslint-disable no-console */
-import { EXPIRER_EVENTS, RELAYER_DEFAULT_PROTOCOL, RELAYER_EVENTS } from "@exodus/walletconnect-core";
+import {
+  EXPIRER_EVENTS,
+  RELAYER_DEFAULT_PROTOCOL,
+  RELAYER_EVENTS,
+} from "@exodus/walletconnect-core";
 
 import {
   formatJsonRpcError,
