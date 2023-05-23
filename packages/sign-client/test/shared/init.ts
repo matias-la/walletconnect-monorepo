@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { PairingTypes, SessionTypes, SignClientTypes } from "@walletconnect/types";
+import { PairingTypes, SessionTypes, SignClientTypes } from "@exodus/walletconnect-types";
 import { createExpiringPromise } from "@walletconnect/utils";
 import { testConnectMethod } from ".";
 import SignClient from "../../src";

@@ -5,7 +5,7 @@ import {
   PendingRequestTypes,
   ProposalTypes,
   SessionTypes,
-} from "@walletconnect/types";
+} from "@exodus/walletconnect-types";
 import { IWeb3Wallet } from "./client";
 
 export abstract class IWeb3WalletEngine {

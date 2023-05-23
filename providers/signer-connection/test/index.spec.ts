@@ -4,8 +4,8 @@ import { describe, it } from "vitest";
 // import * as chai from "chai";
 // import { JsonRpcProvider } from "@walletconnect/jsonrpc-provider";
 // import { formatJsonRpcResult } from "@walletconnect/jsonrpc-utils";
-// import { SignClient, SIGN_CLIENT_EVENTS } from "@walletconnect/sign-client";
-// import { ISignClient, RequestEvent, SessionTypes } from "@walletconnect/types";
+// import { SignClient, SIGN_CLIENT_EVENTS } from "@exodus/walletconnect-sign-client";
+// import { ISignClient, RequestEvent, SessionTypes } from "@exodus/walletconnect-types";
 
 // import { SignerConnection, SIGNER_EVENTS } from "../src";
 

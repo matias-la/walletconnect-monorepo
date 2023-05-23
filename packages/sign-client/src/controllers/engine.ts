@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { EXPIRER_EVENTS, RELAYER_DEFAULT_PROTOCOL, RELAYER_EVENTS } from "@walletconnect/core";
+import { EXPIRER_EVENTS, RELAYER_DEFAULT_PROTOCOL, RELAYER_EVENTS } from "@exodus/walletconnect-core";
 
 import {
   formatJsonRpcError,
@@ -24,7 +24,7 @@ import {
   ProposalTypes,
   RelayerTypes,
   SessionTypes,
-} from "@walletconnect/types";
+} from "@exodus/walletconnect-types";
 import {
   calcExpiry,
   createDelayedPromise,

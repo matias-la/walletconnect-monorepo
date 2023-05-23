@@ -8,7 +8,7 @@ import {
   RelayerTypes,
   PairingJsonRpcTypes,
   ExpirerTypes,
-} from "@walletconnect/types";
+} from "@exodus/walletconnect-types";
 import {
   getInternalError,
   parseUri,

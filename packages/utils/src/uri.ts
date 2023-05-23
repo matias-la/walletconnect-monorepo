@@ -1,5 +1,5 @@
 import * as qs from "query-string";
-import { EngineTypes, RelayerTypes } from "@walletconnect/types";
+import { EngineTypes, RelayerTypes } from "@exodus/walletconnect-types";
 
 // -- uri -------------------------------------------------- //
 

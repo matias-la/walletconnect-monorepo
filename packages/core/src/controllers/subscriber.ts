@@ -10,7 +10,7 @@ import {
   RelayerTypes,
   SubscriberEvents,
   SubscriberTypes,
-} from "@walletconnect/types";
+} from "@exodus/walletconnect-types";
 import {
   getSdkError,
   getInternalError,

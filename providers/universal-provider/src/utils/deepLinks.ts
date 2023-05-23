@@ -1,6 +1,6 @@
-import { SignClient } from "@walletconnect/sign-client";
+import { SignClient } from "@exodus/walletconnect-sign-client";
 import { IKeyValueStorage } from "@walletconnect/keyvaluestorage";
-import { SignClientTypes } from "@walletconnect/types";
+import { SignClientTypes } from "@exodus/walletconnect-types";
 import { RequestParams } from "../types";
 import { ENV_MAP, getEnvironment } from "@walletconnect/utils";
 

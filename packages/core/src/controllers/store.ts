@@ -1,5 +1,5 @@
 import { generateChildLogger, getLoggerContext, Logger } from "@walletconnect/logger";
-import { ICore, IStore } from "@walletconnect/types";
+import { ICore, IStore } from "@exodus/walletconnect-types";
 import {
   getInternalError,
   isProposalStruct,

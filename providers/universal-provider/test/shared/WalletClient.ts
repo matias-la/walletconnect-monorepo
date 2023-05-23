@@ -1,7 +1,7 @@
-import SignClient from "@walletconnect/sign-client";
+import SignClient from "@exodus/walletconnect-sign-client";
 import { formatJsonRpcError, formatJsonRpcResult } from "@walletconnect/jsonrpc-utils";
 import { SIGNER_EVENTS } from "@walletconnect/signer-connection";
-import { SignClientTypes, SessionTypes } from "@walletconnect/types";
+import { SignClientTypes, SessionTypes } from "@exodus/walletconnect-types";
 import { getSdkError, getChainsFromAccounts } from "@walletconnect/utils";
 import { ethers, utils } from "ethers";
 import UniversalProvider from "../../src";

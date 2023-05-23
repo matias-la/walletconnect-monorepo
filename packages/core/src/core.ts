@@ -8,7 +8,7 @@ import {
   getLoggerContext,
   pino,
 } from "@walletconnect/logger";
-import { CoreTypes, ICore } from "@walletconnect/types";
+import { CoreTypes, ICore } from "@exodus/walletconnect-types";
 
 import { Crypto, Relayer, Pairing, JsonRpcHistory, Expirer, Verify } from "./controllers";
 import {

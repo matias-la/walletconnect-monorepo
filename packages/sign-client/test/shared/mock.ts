@@ -15,9 +15,9 @@ import {
   RELAYER_PROVIDER_EVENTS,
   RELAYER_RECONNECT_TIMEOUT,
   RELAYER_SUBSCRIBER_SUFFIX,
-} from "@walletconnect/core";
+} from "@exodus/walletconnect-core";
 import { formatJsonRpcResult, isJsonRpcRequest } from "@walletconnect/jsonrpc-utils";
-import { RelayerTypes } from "@walletconnect/types";
+import { RelayerTypes } from "@exodus/walletconnect-types";
 import { toMiliseconds } from "@walletconnect/time";
 
 export class MockWakuRelayer implements IEvents {

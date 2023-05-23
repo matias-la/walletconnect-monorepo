@@ -1,4 +1,4 @@
-import { SignClientTypes, SessionTypes } from "@walletconnect/types";
+import { SignClientTypes, SessionTypes } from "@exodus/walletconnect-types";
 
 export const TEST_PAIRING_TOPIC =
   "c9e6d30fb34afe70a15c14e9337ba8e4d5a35dd695c39b94884b0ee60c69d168";

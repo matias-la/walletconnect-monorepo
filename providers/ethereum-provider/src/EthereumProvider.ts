@@ -8,7 +8,7 @@ import {
 } from "./types";
 import { Metadata, Namespace, UniversalProvider } from "@walletconnect/universal-provider";
 import type { Web3ModalConfig, Web3Modal } from "@web3modal/standalone";
-import { SessionTypes, SignClientTypes } from "@walletconnect/types";
+import { SessionTypes, SignClientTypes } from "@exodus/walletconnect-types";
 import { STORAGE_KEY, REQUIRED_METHODS, REQUIRED_EVENTS, RPC_URL } from "./constants";
 
 export type QrModalOptions = Pick<

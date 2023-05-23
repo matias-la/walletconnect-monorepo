@@ -10,7 +10,7 @@ import {
   TESTS_CONNECT_TIMEOUT,
   initTwoPairedClients,
 } from "../../shared";
-import { EngineTypes, PairingTypes, SessionTypes } from "@walletconnect/types";
+import { EngineTypes, PairingTypes, SessionTypes } from "@exodus/walletconnect-types";
 
 describe("Sign Client Events Validation", () => {
   let clients: Clients;

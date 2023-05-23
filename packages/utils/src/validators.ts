@@ -1,4 +1,4 @@
-import { SessionTypes, ProposalTypes, RelayerTypes, EngineTypes } from "@walletconnect/types";
+import { SessionTypes, ProposalTypes, RelayerTypes, EngineTypes } from "@exodus/walletconnect-types";
 import { ErrorResponse } from "@walletconnect/jsonrpc-types";
 import {
   getNamespacesChains,

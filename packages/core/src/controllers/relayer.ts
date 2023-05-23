@@ -28,7 +28,7 @@ import {
   RelayerOptions,
   RelayerTypes,
   SubscriberTypes,
-} from "@walletconnect/types";
+} from "@exodus/walletconnect-types";
 import { createExpiringPromise, formatRelayRpcUrl, getInternalError } from "@walletconnect/utils";
 
 import {

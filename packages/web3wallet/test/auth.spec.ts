@@ -1,5 +1,5 @@
-import { Core } from "@walletconnect/core";
-import { ICore } from "@walletconnect/types";
+import { Core } from "@exodus/walletconnect-core";
+import { ICore } from "@exodus/walletconnect-types";
 import { Wallet as CryptoWallet } from "@ethersproject/wallet";
 
 import { expect, describe, it, beforeEach, beforeAll, afterAll } from "vitest";

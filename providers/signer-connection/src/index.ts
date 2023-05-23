@@ -1,7 +1,7 @@
-import SignClient from "@walletconnect/sign-client";
+import SignClient from "@exodus/walletconnect-sign-client";
 import { IJsonRpcConnection } from "@walletconnect/jsonrpc-types";
 import { formatJsonRpcError, formatJsonRpcResult } from "@walletconnect/jsonrpc-utils";
-import { SignClientTypes, ISignClient, SessionTypes, ProposalTypes } from "@walletconnect/types";
+import { SignClientTypes, ISignClient, SessionTypes, ProposalTypes } from "@exodus/walletconnect-types";
 import {
   getSdkError,
   getAccountsFromNamespaces,

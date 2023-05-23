@@ -13,7 +13,7 @@ import {
   SUBSCRIBER_EVENTS,
 } from "../src";
 import { disconnectSocket, TEST_CORE_OPTIONS, throttle } from "./shared";
-import { ICore, IRelayer } from "@walletconnect/types";
+import { ICore, IRelayer } from "@exodus/walletconnect-types";
 import Sinon from "sinon";
 import { JsonRpcRequest } from "@walletconnect/jsonrpc-utils";
 import { generateRandomBytes32 } from "@walletconnect/utils";

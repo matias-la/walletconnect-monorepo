@@ -1,4 +1,4 @@
-import { SessionTypes } from "@walletconnect/types";
+import { SessionTypes } from "@exodus/walletconnect-types";
 import {
   isCaipNamespace,
   isValidObject,

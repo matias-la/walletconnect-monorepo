@@ -1,5 +1,5 @@
-import SignClient from "@walletconnect/sign-client";
-import { SessionTypes } from "@walletconnect/types";
+import SignClient from "@exodus/walletconnect-sign-client";
+import { SessionTypes } from "@exodus/walletconnect-types";
 import { IEthereumProvider } from "eip1193-provider";
 
 import {

@@ -1,5 +1,5 @@
 {
-  "name": "@walletconnect/types",
+  "name": "@exodus/walletconnect-types",
   "description": "Typings for WalletConnect Protocol",
   "version": "2.7.6",
   "author": "WalletConnect, Inc. <walletconnect.com>",

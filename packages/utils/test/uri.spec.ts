@@ -1,4 +1,4 @@
-import { EngineTypes } from "@walletconnect/types";
+import { EngineTypes } from "@exodus/walletconnect-types";
 import { expect, describe, it } from "vitest";
 import { formatUri, generateRandomBytes32, parseUri } from "../src";
 import { TEST_PAIRING_TOPIC, TEST_RELAY_OPTIONS, TEST_SYM_KEY } from "./shared";

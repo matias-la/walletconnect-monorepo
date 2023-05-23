@@ -5,7 +5,7 @@ import {
   RelayerTypes,
   ProposalTypes,
   SessionTypes,
-} from "@walletconnect/types";
+} from "@exodus/walletconnect-types";
 import { throttle } from "./../shared";
 import {
   TEST_RELAY_OPTIONS,

@@ -1,6 +1,6 @@
 import { formatJsonRpcRequest, isJsonRpcError } from "@walletconnect/jsonrpc-utils";
 import { generateChildLogger, getLoggerContext, Logger } from "@walletconnect/logger";
-import { IJsonRpcHistory, JsonRpcRecord, RequestEvent, ICore } from "@walletconnect/types";
+import { IJsonRpcHistory, JsonRpcRecord, RequestEvent, ICore } from "@exodus/walletconnect-types";
 import { getInternalError } from "@walletconnect/utils";
 import { EventEmitter } from "events";
 import {

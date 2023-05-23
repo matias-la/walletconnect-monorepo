@@ -1,7 +1,7 @@
 import { randomBytes, scalarMult } from "tweetnacl";
 import SHA from "sha.js";
 import createHmac from "create-hmac";
-import { CryptoTypes } from "@walletconnect/types";
+import { CryptoTypes } from "@exodus/walletconnect-types";
 import { concat, fromString, toString } from "uint8arrays";
 /// <reference path="sodium-crypto.d.ts"/>
 import { encryptAEAD, decryptAEAD } from "@exodus/sodium-crypto";

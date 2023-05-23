@@ -1,5 +1,5 @@
 import { expect, describe, it, beforeEach, afterEach } from "vitest";
-import { ICore } from "@walletconnect/types";
+import { ICore } from "@exodus/walletconnect-types";
 import { Core, CORE_PROTOCOL, CORE_VERSION } from "../src";
 import { TEST_CORE_OPTIONS, disconnectSocket } from "./shared";
 import { generateRandomBytes32 } from "@walletconnect/utils";

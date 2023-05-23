@@ -5,7 +5,7 @@ import {
   RelayerClientMetadata,
   EngineTypes,
   RelayerTypes,
-} from "@walletconnect/types";
+} from "@exodus/walletconnect-types";
 import { getDocument, getLocation, getNavigator } from "@walletconnect/window-getters";
 import { getWindowMetadata } from "@walletconnect/window-metadata";
 import { ErrorResponse } from "@walletconnect/jsonrpc-utils";
