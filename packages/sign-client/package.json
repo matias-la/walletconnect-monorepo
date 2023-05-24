@@ -42,7 +42,7 @@
     "@walletconnect/logger": "^2.0.1",
     "@walletconnect/time": "^1.0.2",
     "@exodus/walletconnect-types": "2.7.6-exodus.0",
-    "@walletconnect/utils": "2.7.6-exodus.0",
+    "@exodus/walletconnect-utils": "2.7.6-exodus.0",
     "events": "^3.3.0"
   },
   "devDependencies": {

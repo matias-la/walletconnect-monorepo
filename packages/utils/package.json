@@ -1,5 +1,5 @@
 {
-  "name": "@walletconnect/utils",
+  "name": "@exodus/walletconnect-utils",
   "description": "Utilities for WalletConnect Protocol",
   "version": "2.7.6-exodus.0",
   "author": "WalletConnect, Inc. <walletconnect.com>",
