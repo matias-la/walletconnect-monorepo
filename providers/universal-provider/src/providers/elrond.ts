@@ -1,5 +1,5 @@
 import HttpConnection from "@walletconnect/jsonrpc-http-connection";
-import { JsonRpcProvider } from "@walletconnect/jsonrpc-provider";
+import { JsonRpcProvider } from "@exodus/walletconnect-jsonrpc-provider";
 import Client from "@exodus/walletconnect-sign-client";
 import { EngineTypes, SessionTypes } from "@exodus/walletconnect-types";
 import EventEmitter from "events";

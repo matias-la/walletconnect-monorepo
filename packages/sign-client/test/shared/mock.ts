@@ -1,5 +1,5 @@
 import { EventEmitter } from "events";
-import JsonRpcProvider from "@walletconnect/jsonrpc-provider";
+import JsonRpcProvider from "@exodus/walletconnect-jsonrpc-provider";
 import WsConnection from "@exodus/walletconnect-jsonrpc-ws-connection";
 import { IEvents } from "@exodus/walletconnect-events";
 import {
@@ -7,7 +7,7 @@ import {
   JsonRpcPayload,
   JsonRpcRequest,
   RequestArguments,
-} from "@walletconnect/jsonrpc-types";
+} from "@exodus/walletconnect-jsonrpc-types";
 import { RelayJsonRpc, RELAY_JSONRPC } from "@exodus/walletconnect-relay-api";
 import {
   PUBLISHER_DEFAULT_TTL,

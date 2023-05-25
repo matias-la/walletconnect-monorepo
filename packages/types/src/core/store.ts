@@ -1,4 +1,4 @@
-import { ErrorResponse } from "@walletconnect/jsonrpc-types";
+import { ErrorResponse } from "@exodus/walletconnect-jsonrpc-types";
 import { Logger } from "@exodus/walletconnect-logger";
 import { ICore } from "./core";
 

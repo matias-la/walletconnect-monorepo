@@ -1,5 +1,5 @@
 import { HEARTBEAT_EVENTS } from "@exodus/walletconnect-heartbeat";
-import { JsonRpcPayload, RequestArguments } from "@walletconnect/jsonrpc-types";
+import { JsonRpcPayload, RequestArguments } from "@exodus/walletconnect-jsonrpc-types";
 import { generateChildLogger, getLoggerContext, Logger } from "@exodus/walletconnect-logger";
 import { RelayJsonRpc } from "@exodus/walletconnect-relay-api";
 import { IPublisher, IRelayer, PublisherTypes, RelayerTypes } from "@exodus/walletconnect-types";

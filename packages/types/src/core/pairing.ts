@@ -4,7 +4,7 @@ import {
   JsonRpcResponse,
   JsonRpcResult,
   JsonRpcError,
-} from "@walletconnect/jsonrpc-types";
+} from "@exodus/walletconnect-jsonrpc-types";
 import EventEmitter from "events";
 
 import { ICore, CoreTypes } from "./core";

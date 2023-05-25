@@ -1,5 +1,5 @@
 import Client from "@exodus/walletconnect-sign-client";
-import { JsonRpcProvider } from "@walletconnect/jsonrpc-provider";
+import { JsonRpcProvider } from "@exodus/walletconnect-jsonrpc-provider";
 import { HttpConnection } from "@walletconnect/jsonrpc-http-connection";
 import { EngineTypes, SessionTypes } from "@exodus/walletconnect-types";
 

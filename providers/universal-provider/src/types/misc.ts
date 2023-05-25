@@ -1,6 +1,6 @@
 import SignClient from "@exodus/walletconnect-sign-client";
 import { SignClientTypes, ProposalTypes } from "@exodus/walletconnect-types";
-import { JsonRpcProvider } from "@walletconnect/jsonrpc-provider";
+import { JsonRpcProvider } from "@exodus/walletconnect-jsonrpc-provider";
 import { KeyValueStorageOptions } from "@exodus/walletconnect-keyvaluestorage";
 import { IProvider } from "./providers";
 

@@ -1,5 +1,5 @@
 import { EventEmitter } from "events";
-import { JsonRpcProvider } from "@walletconnect/jsonrpc-provider";
+import { JsonRpcProvider } from "@exodus/walletconnect-jsonrpc-provider";
 import {
   formatJsonRpcResult,
   IJsonRpcProvider,

@@ -1,6 +1,6 @@
 import { expect, describe, it, beforeEach, afterEach } from "vitest";
 import { getDefaultLoggerOptions, pino } from "@exodus/walletconnect-logger";
-import { JsonRpcProvider } from "@walletconnect/jsonrpc-provider";
+import { JsonRpcProvider } from "@exodus/walletconnect-jsonrpc-provider";
 
 import {
   Core,

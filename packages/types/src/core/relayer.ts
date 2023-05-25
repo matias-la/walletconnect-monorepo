@@ -1,5 +1,9 @@
 import { IEvents } from "@exodus/walletconnect-events";
-import { IJsonRpcProvider, JsonRpcPayload, RequestArguments } from "@walletconnect/jsonrpc-types";
+import {
+  IJsonRpcProvider,
+  JsonRpcPayload,
+  RequestArguments,
+} from "@exodus/walletconnect-jsonrpc-types";
 import { Logger } from "@exodus/walletconnect-logger";
 
 import { ICore } from "./core";

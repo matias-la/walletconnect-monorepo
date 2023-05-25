@@ -1,6 +1,6 @@
 import { EventEmitter } from "events";
 import { HEARTBEAT_EVENTS } from "@exodus/walletconnect-heartbeat";
-import { ErrorResponse, RequestArguments } from "@walletconnect/jsonrpc-types";
+import { ErrorResponse, RequestArguments } from "@exodus/walletconnect-jsonrpc-types";
 import { generateChildLogger, getLoggerContext, Logger } from "@exodus/walletconnect-logger";
 import { RelayJsonRpc } from "@exodus/walletconnect-relay-api";
 import { Watch } from "@exodus/walletconnect-time";

@@ -33,7 +33,7 @@
     "@exodus/walletconnect-sign-client": "2.7.6-exodus.0",
     "@exodus/walletconnect-types": "2.7.6-exodus.0",
     "@exodus/walletconnect-utils": "2.7.6-exodus.0",
-    "@exodus/walletconnect-jsonrpc-provider": "^1.0.13-exodus.0"
+    "@exodus/walletconnect-jsonrpc-provider": "^1.0.13-exodus.1"
   },
   "devDependencies": {
     "@ethersproject/wallet": "^5.7.0",

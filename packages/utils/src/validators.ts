@@ -4,7 +4,7 @@ import {
   RelayerTypes,
   EngineTypes,
 } from "@exodus/walletconnect-types";
-import { ErrorResponse } from "@walletconnect/jsonrpc-types";
+import { ErrorResponse } from "@exodus/walletconnect-jsonrpc-types";
 import {
   getNamespacesChains,
   getNamespacesMethodsForChainId,

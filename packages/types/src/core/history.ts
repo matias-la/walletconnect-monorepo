@@ -4,7 +4,7 @@ import {
   JsonRpcRequest,
   JsonRpcResponse,
   RequestArguments,
-} from "@walletconnect/jsonrpc-types";
+} from "@exodus/walletconnect-jsonrpc-types";
 import { Logger } from "@exodus/walletconnect-logger";
 
 import { ICore } from "./core";
