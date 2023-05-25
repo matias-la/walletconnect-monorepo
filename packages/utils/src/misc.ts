@@ -8,7 +8,7 @@ import {
 } from "@exodus/walletconnect-types";
 import { getDocument, getLocation, getNavigator } from "@exodus/walletconnect-window-getters";
 import { getWindowMetadata } from "@exodus/walletconnect-window-metadata";
-import { ErrorResponse } from "@walletconnect/jsonrpc-utils";
+import { ErrorResponse } from "@exodus/walletconnect-jsonrpc-utils";
 import * as qs from "query-string";
 
 // -- constants -----------------------------------------//

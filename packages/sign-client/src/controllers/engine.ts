@@ -13,7 +13,7 @@ import {
   isJsonRpcRequest,
   isJsonRpcResponse,
   isJsonRpcResult,
-} from "@walletconnect/jsonrpc-utils";
+} from "@exodus/walletconnect-jsonrpc-utils";
 import { FIVE_MINUTES } from "@exodus/walletconnect-time";
 import {
   EnginePrivate,

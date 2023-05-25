@@ -34,8 +34,8 @@
     "prettier": "prettier --check '{src,test}/**/*.{js,ts,jsx,tsx}'"
   },
   "dependencies": {
-    "@walletconnect/jsonrpc-types": "^1.0.3",
-    "@walletconnect/jsonrpc-utils": "^1.0.8",
+    "@exodus/walletconnect-jsonrpc-types": "^1.0.3-exodus.0",
+    "@exodus/walletconnect-jsonrpc-utils": "^1.0.8-exodus.0",
     "@exodus/walletconnect-sign-client": "2.7.6-exodus.0",
     "@exodus/walletconnect-types": "2.7.6-exodus.0",
     "@walletconnect/utils": "2.7.6-exodus.0",

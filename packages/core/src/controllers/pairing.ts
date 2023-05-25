@@ -33,7 +33,7 @@ import {
   isJsonRpcResponse,
   isJsonRpcResult,
   isJsonRpcError,
-} from "@walletconnect/jsonrpc-utils";
+} from "@exodus/walletconnect-jsonrpc-utils";
 import { FIVE_MINUTES, THIRTY_DAYS } from "@exodus/walletconnect-time";
 import EventEmitter from "events";
 import {

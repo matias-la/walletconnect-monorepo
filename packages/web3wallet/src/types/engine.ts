@@ -1,5 +1,5 @@
 import { AuthEngineTypes, IAuthClient } from "@walletconnect/auth-client";
-import { ErrorResponse, JsonRpcResponse } from "@walletconnect/jsonrpc-utils";
+import { ErrorResponse, JsonRpcResponse } from "@exodus/walletconnect-jsonrpc-utils";
 import {
   ISignClient,
   PendingRequestTypes,

@@ -15,7 +15,7 @@ import {
 import { disconnectSocket, TEST_CORE_OPTIONS, throttle } from "./shared";
 import { ICore, IRelayer } from "@exodus/walletconnect-types";
 import Sinon from "sinon";
-import { JsonRpcRequest } from "@walletconnect/jsonrpc-utils";
+import { JsonRpcRequest } from "@exodus/walletconnect-jsonrpc-utils";
 import { generateRandomBytes32 } from "@walletconnect/utils";
 
 describe("Relayer", () => {

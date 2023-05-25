@@ -1,4 +1,4 @@
-import { formatJsonRpcError, JsonRpcError } from "@walletconnect/jsonrpc-utils";
+import { formatJsonRpcError, JsonRpcError } from "@exodus/walletconnect-jsonrpc-utils";
 import { generateRandomBytes32, getSdkError } from "@walletconnect/utils";
 import { describe, expect, it } from "vitest";
 import { SignClient } from "../../src";

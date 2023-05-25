@@ -12,7 +12,7 @@ import {
 import { EventEmitter } from "events";
 
 import { PUBLISHER_CONTEXT, PUBLISHER_DEFAULT_TTL, RELAYER_EVENTS } from "../constants";
-import { getBigIntRpcId } from "@walletconnect/jsonrpc-utils";
+import { getBigIntRpcId } from "@exodus/walletconnect-jsonrpc-utils";
 
 export class Publisher extends IPublisher {
   public events = new EventEmitter();

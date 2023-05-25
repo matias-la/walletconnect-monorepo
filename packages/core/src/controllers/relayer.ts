@@ -8,7 +8,7 @@ import {
   JsonRpcPayload,
   JsonRpcRequest,
   RequestArguments,
-} from "@walletconnect/jsonrpc-utils";
+} from "@exodus/walletconnect-jsonrpc-utils";
 import WsConnection from "@exodus/walletconnect-jsonrpc-ws-connection";
 import {
   generateChildLogger,

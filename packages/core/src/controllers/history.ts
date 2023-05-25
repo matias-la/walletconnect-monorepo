@@ -1,4 +1,4 @@
-import { formatJsonRpcRequest, isJsonRpcError } from "@walletconnect/jsonrpc-utils";
+import { formatJsonRpcRequest, isJsonRpcError } from "@exodus/walletconnect-jsonrpc-utils";
 import { generateChildLogger, getLoggerContext, Logger } from "@exodus/walletconnect-logger";
 import { IJsonRpcHistory, JsonRpcRecord, RequestEvent, ICore } from "@exodus/walletconnect-types";
 import { getInternalError } from "@walletconnect/utils";

@@ -7,7 +7,7 @@ import { HEARTBEAT_EVENTS } from "@exodus/walletconnect-heartbeat";
 
 import { Core, PUBLISHER_DEFAULT_TTL, RELAYER_EVENTS } from "../src";
 import { disconnectSocket, TEST_CORE_OPTIONS, throttle } from "./shared";
-import { getBigIntRpcId } from "@walletconnect/jsonrpc-utils";
+import { getBigIntRpcId } from "@exodus/walletconnect-jsonrpc-utils";
 
 const getId = () => {
   return getBigIntRpcId().toString() as any;

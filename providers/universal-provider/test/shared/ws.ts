@@ -1,4 +1,4 @@
-import { IJsonRpcConnection } from "@walletconnect/jsonrpc-utils";
+import { IJsonRpcConnection } from "@exodus/walletconnect-jsonrpc-utils";
 import { ICore } from "@exodus/walletconnect-types";
 import EventEmitter from "events";
 

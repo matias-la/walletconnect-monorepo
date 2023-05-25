@@ -1,5 +1,5 @@
 import { Core } from "@exodus/walletconnect-core";
-import { formatJsonRpcResult } from "@walletconnect/jsonrpc-utils";
+import { formatJsonRpcResult } from "@exodus/walletconnect-jsonrpc-utils";
 import { SignClient } from "@exodus/walletconnect-sign-client";
 import { ICore, ISignClient, SessionTypes } from "@exodus/walletconnect-types";
 import { getSdkError } from "@walletconnect/utils";

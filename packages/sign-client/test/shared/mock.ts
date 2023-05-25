@@ -16,7 +16,7 @@ import {
   RELAYER_RECONNECT_TIMEOUT,
   RELAYER_SUBSCRIBER_SUFFIX,
 } from "@exodus/walletconnect-core";
-import { formatJsonRpcResult, isJsonRpcRequest } from "@walletconnect/jsonrpc-utils";
+import { formatJsonRpcResult, isJsonRpcRequest } from "@exodus/walletconnect-jsonrpc-utils";
 import { RelayerTypes } from "@exodus/walletconnect-types";
 import { toMiliseconds } from "@exodus/walletconnect-time";
 

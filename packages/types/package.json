@@ -26,7 +26,7 @@
   "dependencies": {
     "@exodus/walletconnect-events": "^1.0.1-exodus.0",
     "@exodus/walletconnect-heartbeat": "^1.2.1-exodus.0",
-    "@walletconnect/jsonrpc-types": "1.0.3",
+    "@exodus/walletconnect-jsonrpc-types": "^1.0.3-exodus.0",
     "@exodus/walletconnect-keyvaluestorage": "^1.0.2-exodus.0",
     "@exodus/walletconnect-logger": "^2.0.1-exodus.0",
     "events": "^3.3.0"

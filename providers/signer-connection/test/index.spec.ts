@@ -3,7 +3,7 @@ import { describe, it } from "vitest";
 // import "mocha";
 // import * as chai from "chai";
 // import { JsonRpcProvider } from "@walletconnect/jsonrpc-provider";
-// import { formatJsonRpcResult } from "@walletconnect/jsonrpc-utils";
+// import { formatJsonRpcResult } from "@exodus/walletconnect-jsonrpc-utils";
 // import { SignClient, SIGN_CLIENT_EVENTS } from "@exodus/walletconnect-sign-client";
 // import { ISignClient, RequestEvent, SessionTypes } from "@exodus/walletconnect-types";
 
