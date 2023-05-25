@@ -3,7 +3,7 @@ import { calcExpiry, formatExpirerTarget } from "@walletconnect/utils";
 
 import { Core, EXPIRER_EVENTS } from "../src";
 import { disconnectSocket, TEST_CORE_OPTIONS } from "./shared";
-import { HEARTBEAT_EVENTS } from "@walletconnect/heartbeat";
+import { HEARTBEAT_EVENTS } from "@exodus/walletconnect-heartbeat";
 
 describe("Expirer", () => {
   it("should expire payload", async () => {

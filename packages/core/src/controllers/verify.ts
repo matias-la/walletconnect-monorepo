@@ -1,7 +1,7 @@
-import { generateChildLogger, getLoggerContext, Logger } from "@walletconnect/logger";
+import { generateChildLogger, getLoggerContext, Logger } from "@exodus/walletconnect-logger";
 import { IVerify } from "@exodus/walletconnect-types";
 import { isBrowser, isNode, isReactNative } from "@walletconnect/utils";
-import { FIVE_SECONDS, ONE_SECOND, toMiliseconds } from "@walletconnect/time";
+import { FIVE_SECONDS, ONE_SECOND, toMiliseconds } from "@exodus/walletconnect-time";
 
 import { VERIFY_CONTEXT, VERIFY_SERVER } from "../constants";
 

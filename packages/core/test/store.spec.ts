@@ -1,5 +1,5 @@
 import { expect, describe, it, beforeEach } from "vitest";
-import { getDefaultLoggerOptions, pino } from "@walletconnect/logger";
+import { getDefaultLoggerOptions, pino } from "@exodus/walletconnect-logger";
 import { Core, CORE_STORAGE_PREFIX, Store, STORE_STORAGE_VERSION } from "../src";
 import { TEST_CORE_OPTIONS } from "./shared";
 import { ICore, IStore, SessionTypes } from "@exodus/walletconnect-types";

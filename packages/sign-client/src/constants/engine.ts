@@ -1,4 +1,4 @@
-import { FIVE_MINUTES, ONE_DAY, SEVEN_DAYS, THIRTY_SECONDS } from "@walletconnect/time";
+import { FIVE_MINUTES, ONE_DAY, SEVEN_DAYS, THIRTY_SECONDS } from "@exodus/walletconnect-time";
 import { EngineTypes } from "@exodus/walletconnect-types";
 
 export const ENGINE_CONTEXT = "engine";

@@ -1,4 +1,4 @@
-import { RELAY_JSONRPC } from "@walletconnect/relay-api";
+import { RELAY_JSONRPC } from "@exodus/walletconnect-relay-api";
 import { RelayerTypes } from "@exodus/walletconnect-types";
 
 export const RELAYER_DEFAULT_PROTOCOL = "irn";

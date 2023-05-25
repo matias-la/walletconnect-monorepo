@@ -1,5 +1,5 @@
 import { expect, describe, it, beforeEach } from "vitest";
-import { getDefaultLoggerOptions, pino } from "@walletconnect/logger";
+import { getDefaultLoggerOptions, pino } from "@exodus/walletconnect-logger";
 import * as utils from "@walletconnect/utils";
 import Sinon from "sinon";
 import { Core, CORE_DEFAULT, Crypto } from "../src";

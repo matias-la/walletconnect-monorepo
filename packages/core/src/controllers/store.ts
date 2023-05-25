@@ -1,4 +1,4 @@
-import { generateChildLogger, getLoggerContext, Logger } from "@walletconnect/logger";
+import { generateChildLogger, getLoggerContext, Logger } from "@exodus/walletconnect-logger";
 import { ICore, IStore } from "@exodus/walletconnect-types";
 import {
   getInternalError,

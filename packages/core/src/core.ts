@@ -1,13 +1,13 @@
 import { EventEmitter } from "events";
 
-import KeyValueStorage from "@walletconnect/keyvaluestorage";
-import { HeartBeat } from "@walletconnect/heartbeat";
+import KeyValueStorage from "@exodus/walletconnect-keyvaluestorage";
+import { HeartBeat } from "@exodus/walletconnect-heartbeat";
 import {
   generateChildLogger,
   getDefaultLoggerOptions,
   getLoggerContext,
   pino,
-} from "@walletconnect/logger";
+} from "@exodus/walletconnect-logger";
 import { CoreTypes, ICore } from "@exodus/walletconnect-types";
 
 import { Crypto, Relayer, Pairing, JsonRpcHistory, Expirer, Verify } from "./controllers";

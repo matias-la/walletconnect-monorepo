@@ -1,13 +1,13 @@
 import { detect } from "detect-browser";
-import { FIVE_MINUTES, fromMiliseconds, toMiliseconds } from "@walletconnect/time";
+import { FIVE_MINUTES, fromMiliseconds, toMiliseconds } from "@exodus/walletconnect-time";
 import {
   SignClientTypes,
   RelayerClientMetadata,
   EngineTypes,
   RelayerTypes,
 } from "@exodus/walletconnect-types";
-import { getDocument, getLocation, getNavigator } from "@walletconnect/window-getters";
-import { getWindowMetadata } from "@walletconnect/window-metadata";
+import { getDocument, getLocation, getNavigator } from "@exodus/walletconnect-window-getters";
+import { getWindowMetadata } from "@exodus/walletconnect-window-metadata";
 import { ErrorResponse } from "@walletconnect/jsonrpc-utils";
 import * as qs from "query-string";
 

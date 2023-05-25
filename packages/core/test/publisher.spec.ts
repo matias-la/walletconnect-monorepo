@@ -3,7 +3,7 @@ import Sinon from "sinon";
 import { ICore } from "@exodus/walletconnect-types";
 import { generateRandomBytes32, hashMessage } from "@walletconnect/utils";
 import { Publisher } from "../src/controllers/publisher";
-import { HEARTBEAT_EVENTS } from "@walletconnect/heartbeat";
+import { HEARTBEAT_EVENTS } from "@exodus/walletconnect-heartbeat";
 
 import { Core, PUBLISHER_DEFAULT_TTL, RELAYER_EVENTS } from "../src";
 import { disconnectSocket, TEST_CORE_OPTIONS, throttle } from "./shared";

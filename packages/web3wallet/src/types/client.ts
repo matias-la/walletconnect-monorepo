@@ -2,7 +2,7 @@ import EventEmmiter, { EventEmitter } from "events";
 import { ICore, ProposalTypes, Verify } from "@exodus/walletconnect-types";
 import { AuthClientTypes } from "@walletconnect/auth-client";
 import { IWeb3WalletEngine } from "./engine";
-import { Logger } from "@walletconnect/logger";
+import { Logger } from "@exodus/walletconnect-logger";
 
 export declare namespace Web3WalletTypes {
   type Event = "session_proposal" | "session_request" | "session_delete" | "auth_request";

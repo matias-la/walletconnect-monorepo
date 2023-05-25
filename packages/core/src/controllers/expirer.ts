@@ -1,6 +1,6 @@
-import { HEARTBEAT_EVENTS } from "@walletconnect/heartbeat";
-import { generateChildLogger, getLoggerContext, Logger } from "@walletconnect/logger";
-import { toMiliseconds } from "@walletconnect/time";
+import { HEARTBEAT_EVENTS } from "@exodus/walletconnect-heartbeat";
+import { generateChildLogger, getLoggerContext, Logger } from "@exodus/walletconnect-logger";
+import { toMiliseconds } from "@exodus/walletconnect-time";
 import { ExpirerTypes, ICore, IExpirer } from "@exodus/walletconnect-types";
 import { getInternalError, formatIdTarget, formatTopicTarget } from "@walletconnect/utils";
 import { EventEmitter } from "events";

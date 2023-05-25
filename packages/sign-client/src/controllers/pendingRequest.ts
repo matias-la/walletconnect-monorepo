@@ -1,5 +1,5 @@
 import { Store } from "@exodus/walletconnect-core";
-import { Logger } from "@walletconnect/logger";
+import { Logger } from "@exodus/walletconnect-logger";
 import { ICore, PendingRequestTypes } from "@exodus/walletconnect-types";
 import { REQUEST_CONTEXT, SIGN_CLIENT_STORAGE_PREFIX } from "../constants";
 

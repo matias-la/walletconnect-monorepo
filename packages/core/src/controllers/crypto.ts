@@ -1,7 +1,7 @@
-import { generateChildLogger, getLoggerContext, Logger } from "@walletconnect/logger";
-import { safeJsonParse, safeJsonStringify } from "@walletconnect/safe-json";
+import { generateChildLogger, getLoggerContext, Logger } from "@exodus/walletconnect-logger";
+import { safeJsonParse, safeJsonStringify } from "@exodus/walletconnect-safe-json";
 import { ICore, ICrypto, IKeyChain } from "@exodus/walletconnect-types";
-import * as relayAuth from "@walletconnect/relay-auth";
+import * as relayAuth from "@exodus/walletconnect-relay-auth";
 import { fromString } from "uint8arrays/from-string";
 import {
   decrypt,

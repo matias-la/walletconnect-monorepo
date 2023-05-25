@@ -14,7 +14,7 @@ import {
   isJsonRpcResponse,
   isJsonRpcResult,
 } from "@walletconnect/jsonrpc-utils";
-import { FIVE_MINUTES } from "@walletconnect/time";
+import { FIVE_MINUTES } from "@exodus/walletconnect-time";
 import {
   EnginePrivate,
   EngineTypes,

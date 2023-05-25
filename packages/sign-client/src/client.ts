@@ -4,7 +4,7 @@ import {
   getDefaultLoggerOptions,
   getLoggerContext,
   pino,
-} from "@walletconnect/logger";
+} from "@exodus/walletconnect-logger";
 import {
   SignClientTypes,
   ISignClient,

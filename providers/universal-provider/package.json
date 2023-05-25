@@ -41,7 +41,7 @@
     "@walletconnect/jsonrpc-provider": "1.0.13",
     "@walletconnect/jsonrpc-types": "^1.0.2",
     "@walletconnect/jsonrpc-utils": "^1.0.7",
-    "@walletconnect/logger": "^2.0.1",
+    "@exodus/walletconnect-logger": "^2.0.1-exodus.0",
     "@exodus/walletconnect-sign-client": "2.7.6-exodus.0",
     "@exodus/walletconnect-types": "2.7.6-exodus.0",
     "@walletconnect/utils": "2.7.6-exodus.0",

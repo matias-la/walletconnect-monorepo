@@ -1,6 +1,6 @@
 import { expect, describe, it, beforeEach, afterAll, afterEach } from "vitest";
 import Sinon from "sinon";
-import { getDefaultLoggerOptions, pino } from "@walletconnect/logger";
+import { getDefaultLoggerOptions, pino } from "@exodus/walletconnect-logger";
 import { ICore, IRelayer, ISubscriber } from "@exodus/walletconnect-types";
 import { generateRandomBytes32, getRelayProtocolName, hashMessage } from "@walletconnect/utils";
 

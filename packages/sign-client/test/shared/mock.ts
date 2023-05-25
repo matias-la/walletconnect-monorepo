@@ -1,14 +1,14 @@
 import { EventEmitter } from "events";
 import JsonRpcProvider from "@walletconnect/jsonrpc-provider";
-import WsConnection from "@walletconnect/jsonrpc-ws-connection";
-import { IEvents } from "@walletconnect/events";
+import WsConnection from "@exodus/walletconnect-jsonrpc-ws-connection";
+import { IEvents } from "@exodus/walletconnect-events";
 import {
   IJsonRpcProvider,
   JsonRpcPayload,
   JsonRpcRequest,
   RequestArguments,
 } from "@walletconnect/jsonrpc-types";
-import { RelayJsonRpc, RELAY_JSONRPC } from "@walletconnect/relay-api";
+import { RelayJsonRpc, RELAY_JSONRPC } from "@exodus/walletconnect-relay-api";
 import {
   PUBLISHER_DEFAULT_TTL,
   RELAYER_EVENTS,
@@ -18,7 +18,7 @@ import {
 } from "@exodus/walletconnect-core";
 import { formatJsonRpcResult, isJsonRpcRequest } from "@walletconnect/jsonrpc-utils";
 import { RelayerTypes } from "@exodus/walletconnect-types";
-import { toMiliseconds } from "@walletconnect/time";
+import { toMiliseconds } from "@exodus/walletconnect-time";
 
 export class MockWakuRelayer implements IEvents {
   public events = new EventEmitter();

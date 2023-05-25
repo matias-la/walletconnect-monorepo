@@ -9,16 +9,16 @@ import {
   JsonRpcRequest,
   RequestArguments,
 } from "@walletconnect/jsonrpc-utils";
-import WsConnection from "@walletconnect/jsonrpc-ws-connection";
+import WsConnection from "@exodus/walletconnect-jsonrpc-ws-connection";
 import {
   generateChildLogger,
   getDefaultLoggerOptions,
   getLoggerContext,
   pino,
   Logger,
-} from "@walletconnect/logger";
-import { RelayJsonRpc } from "@walletconnect/relay-api";
-import { toMiliseconds } from "@walletconnect/time";
+} from "@exodus/walletconnect-logger";
+import { RelayJsonRpc } from "@exodus/walletconnect-relay-api";
+import { toMiliseconds } from "@exodus/walletconnect-time";
 import {
   ICore,
   IMessageTracker,

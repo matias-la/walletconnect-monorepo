@@ -1,4 +1,4 @@
-import { THIRTY_DAYS, ONE_DAY, THIRTY_SECONDS } from "@walletconnect/time";
+import { THIRTY_DAYS, ONE_DAY, THIRTY_SECONDS } from "@exodus/walletconnect-time";
 import { RelayerTypes, PairingJsonRpcTypes } from "@exodus/walletconnect-types";
 
 export const PAIRING_CONTEXT = "pairing";

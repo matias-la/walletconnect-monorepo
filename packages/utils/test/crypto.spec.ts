@@ -1,6 +1,6 @@
 import { expect, describe, it } from "vitest";
 import { toString } from "uint8arrays";
-import { safeJsonStringify } from "@walletconnect/safe-json";
+import { safeJsonStringify } from "@exodus/walletconnect-safe-json";
 
 import {
   BASE16,

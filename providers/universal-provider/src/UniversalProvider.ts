@@ -2,7 +2,7 @@ import SignClient, { PROPOSAL_EXPIRY_MESSAGE } from "@exodus/walletconnect-sign-
 import { ProviderAccounts } from "eip1193-provider";
 import { SessionTypes } from "@exodus/walletconnect-types";
 import { getSdkError, isValidArray, parseNamespaceKey } from "@walletconnect/utils";
-import { getDefaultLoggerOptions, Logger, pino } from "@walletconnect/logger";
+import { getDefaultLoggerOptions, Logger, pino } from "@exodus/walletconnect-logger";
 import {
   getAccountsFromSession,
   getChainsFromApprovedSession,

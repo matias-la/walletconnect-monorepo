@@ -11,7 +11,7 @@ import { ICore, CoreTypes } from "./core";
 import { IStore } from "./store";
 
 import { RelayerTypes } from "../core/relayer";
-import { Logger } from "@walletconnect/logger";
+import { Logger } from "@exodus/walletconnect-logger";
 
 export declare namespace PairingTypes {
   interface Struct {
